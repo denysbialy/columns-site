@@ -1,0 +1,20 @@
+.about-me {
+}
+.text-center {
+  height: 357px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.me-information {
+  margin-top: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .me-information {
+    width: 540px;
+  }
+}

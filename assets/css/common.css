@@ -18,10 +18,17 @@
   color: var(--text-color);
 }
 
-.main-heading {
+.main-heading-h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
+  line-height: 1.6;
+  color: var(--heading-color);
+}
+.main-heading-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
   line-height: 1.6;
   color: var(--heading-color);
 }
